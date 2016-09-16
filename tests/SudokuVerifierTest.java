@@ -35,8 +35,19 @@ public class SudokuVerifierTest {
 	public void testLengthMoreThan81_ReturnsMinus1() {
 		SudokuVerifier test = new SudokuVerifier();
 		String aString = "123987842183090982378974019283423467234762634788798234123";
-		int result = test.verify(candidateSolution)
+		int result = test.verify(aString);
 		 
-		assertEquals(81, length1);
+		assertEquals(-1, result);
 	}
+	
+	@Test
+	public void testVerfy_correct() {
+		SudokuVerifier test = new SudokuVerifier();
+		String aString = "123987842183090982378974019283423467234762634788798234123";
+		int result = test.verify(aString);
+		 
+		assertEquals(-1, result);
+	}
+	
+	
 }

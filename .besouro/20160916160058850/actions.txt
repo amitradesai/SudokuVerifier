@@ -22,3 +22,16 @@ RefactoringAction 1474031936870 SudokuVerifierTest.java RENAME testLengthMoreTha
 RefactoringAction 1474031938885 SudokuVerifierTest.java RENAME testLengthMoreThan81_Returen()=>void testLengthMoreThan81_Retur() METHOD
 RefactoringAction 1474031942400 SudokuVerifierTest.java RENAME testLengthMoreThan81_Retur()=>void testLengthMoreThan81_ReturnsMinus1() METHOD
 EditAction 1474032000245 SudokuVerifierTest.java 1219 4 10 3
+CompilationAction 1474032000688 SudokuVerifierTest.java
+CompilationAction 1474032000689 SudokuVerifierTest.java
+CompilationAction 1474032000689 SudokuVerifierTest.java
+CompilationAction 1474032020529 SudokuVerifierTest.java
+CompilationAction 1474032020530 SudokuVerifierTest.java
+CompilationAction 1474032020530 SudokuVerifierTest.java
+CompilationAction 1474032020692 SudokuVerifierTest.java
+CompilationAction 1474032025824 SudokuVerifierTest.java
+UnitTestCaseAction 1474032029987 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474032029988 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032067117 SudokuVerifierTest.java ADD void testLengthMoreThan81_ReturnsMinus1()/2 METHOD
+RefactoringAction 1474032103148 SudokuVerifierTest.java RENAME testLengthMoreThan81_ReturnsMinus1()/2=>void testVerf() METHOD
+EditAction 1474032106028 SudokuVerifierTest.java 1455 5 18 5
