@@ -35,3 +35,5 @@ UnitTestSessionAction 1474032029988 SudokuVerifierTest.java FAIL
 RefactoringAction 1474032067117 SudokuVerifierTest.java ADD void testLengthMoreThan81_ReturnsMinus1()/2 METHOD
 RefactoringAction 1474032103148 SudokuVerifierTest.java RENAME testLengthMoreThan81_ReturnsMinus1()/2=>void testVerf() METHOD
 EditAction 1474032106028 SudokuVerifierTest.java 1455 5 18 5
+RefactoringAction 1474032110664 SudokuVerifierTest.java RENAME testVerfy_correct()=>void testVerfy_correctolution_Returns0() METHOD
+EditAction 1474032121856 SudokuVerifierTest.java 1494 5 18 5

@@ -41,12 +41,12 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerfy_correct() {
+	public void testVerfy_correctolution_Returns0() {
 		SudokuVerifier test = new SudokuVerifier();
-		String aString = "123987842183090982378974019283423467234762634788798234123";
+		String aString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		int result = test.verify(aString);
 		 
-		assertEquals(-1, result);
+		assertEquals(0, result);
 	}
 	
 	
