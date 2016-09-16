@@ -16,11 +16,17 @@ public class SudokuVerifier {
 		if (length1 != 81) {
 			return -1;
 		}
+		if ( !candidateSolution.matches("[1-9]+")) {
+			return -1;
+		}
 		else
 			return 0;
 		
 		//check
 	}
+	
+	
+	
 	
 	
 }
