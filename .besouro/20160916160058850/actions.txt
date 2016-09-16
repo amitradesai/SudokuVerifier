@@ -1,0 +1,11 @@
+FileOpenedAction 1474030859106 SudokuVerifier.java 747 2 1 0
+RefactoringAction 1474030894630 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+RefactoringAction 1474031320399 SudokuVerifier.java RENAME main(String=>String aString FIELD
+RefactoringAction 1474031327443 SudokuVerifier.java MOVE SudokuVerifier=>class Test null
+RefactoringAction 1474031684956 SudokuVerifierTest.java ADD void testVerify()/3 METHOD
+RefactoringAction 1474031689469 SudokuVerifierTest.java RENAME testVerify()/3=>void testLength() METHOD
+CompilationAction 1474031691870 SudokuVerifier.java
+CompilationAction 1474031691870 SudokuVerifier.java
+CompilationAction 1474031691871 SudokuVerifier.java
+CompilationAction 1474031691871 SudokuVerifier.java
+EditAction 1474031741650 SudokuVerifierTest.java 1189 4 14 4
