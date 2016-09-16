@@ -22,13 +22,6 @@ public class SudokuVerifierTest {
 		assertEquals(-1, result);
 	}
 	
-	@Test
-	public void testVerify() {
-		String candidateString = "123456789123456789123456789123456789123456789";
-		SudokuVerifier test = new SudokuVerifier();
-		int result = test.verify(candidateString);
-		assertEquals(-2, result);
-	}
 	
 	@Test
 	public void testLength() {
