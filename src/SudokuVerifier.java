@@ -12,7 +12,12 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		int length1 = candidateSolution.length();
-		return 0;
+		
+		if (length1 != 81) {
+			return -1;
+		}
+		else
+			return 0;
 		
 		//check
 	}
