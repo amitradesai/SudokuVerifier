@@ -30,8 +30,6 @@ public class SudokuVerifierTest {
 		 
 		assertEquals(81, length1);
 	}
-	
-
-	
+		
 	
 }

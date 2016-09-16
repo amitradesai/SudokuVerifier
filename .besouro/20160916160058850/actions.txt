@@ -12,3 +12,4 @@ EditAction 1474031741650 SudokuVerifierTest.java 1189 4 14 4
 CompilationAction 1474031741798 SudokuVerifierTest.java
 RefactoringAction 1474031754708 SudokuVerifierTest.java REMOVE testVerify()/2 METHOD
 EditAction 1474031823801 SudokuVerifier.java 316 1 2 0
+EditAction 1474031828130 SudokuVerifierTest.java 954 3 10 3
