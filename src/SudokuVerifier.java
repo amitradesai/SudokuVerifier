@@ -22,6 +22,18 @@ public class SudokuVerifier {
 		else
 			return 0;
 		
+		for(int j=0;j<=9;j++)
+		{
+				for(int i = 1; i <= 9; i++)
+				{
+						if(candidateSolution.charAt(i-1) != i)
+						{
+								return false;
+						}
+				}
+		
+		}
+		return true;
 		//check
 	}
 	
