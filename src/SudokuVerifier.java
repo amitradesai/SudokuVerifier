@@ -1,4 +1,6 @@
 import static org.junit.Assert.*;
+import java.util.Arrays;
+
 import static org.hamcrest.CoreMatchers.*;
 
 import org.junit.Test;
@@ -7,8 +9,7 @@ import org.junit.Test;
 
 public class SudokuVerifier {
 	
-
-	
+			
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		int length1 = candidateSolution.length();
@@ -22,7 +23,8 @@ public class SudokuVerifier {
 		else {
 			
 			String firstRow = candidateSolution.substring(0,9);
-				
+			Arrays.sort(firstRow.toCharArray());
+			
 /*			for(int j=0;j<=9;j++)
 			{
 				for(int i = 1; i <= 9; i++)
@@ -37,6 +39,10 @@ public class SudokuVerifier {
 		}
 		return 1;
 		//check
+	}
+	
+	public int checkRows(String candidateSolution) {
+		return -3;
 	}
 	
 	

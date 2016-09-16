@@ -48,3 +48,35 @@ CompilationAction 1474034767944 SudokuVerifier.java
 CompilationAction 1474034768110 SudokuVerifier.java
 CompilationAction 1474034796379 SudokuVerifier.java
 EditAction 1474034992184 SudokuVerifier.java 663 1 4 0
+RefactoringAction 1474035104875 SudokuVerifier.java ADD import java.lang.reflect.Array IMPORT
+RefactoringAction 1474035171538 SudokuVerifier.java REMOVE import java.lang.reflect.Array IMPORT
+RefactoringAction 1474035216085 SudokuVerifier.java ADD import org IMPORT
+RefactoringAction 1474035217599 SudokuVerifier.java RENAME import org=>import org.ja IMPORT
+RefactoringAction 1474035220109 SudokuVerifier.java RENAME import org.ja=>import org IMPORT
+RefactoringAction 1474035222119 SudokuVerifier.java RENAME import org=>import org.ut IMPORT
+RefactoringAction 1474035225632 SudokuVerifier.java RENAME import org.ut=>import org.util IMPORT
+RefactoringAction 1474035227145 SudokuVerifier.java REMOVE import org.util IMPORT
+RefactoringAction 1474035251170 SudokuVerifier.java ADD import java.uti IMPORT
+RefactoringAction 1474035252680 SudokuVerifier.java REMOVE import java.uti IMPORT
+RefactoringAction 1474035255693 SudokuVerifier.java ADD import java.util.arr IMPORT
+RefactoringAction 1474035258707 SudokuVerifier.java RENAME import java.util.arr=>import java.util IMPORT
+RefactoringAction 1474035260715 SudokuVerifier.java REMOVE import java.util IMPORT
+RefactoringAction 1474035262225 SudokuVerifier.java ADD import java.util.a IMPORT
+RefactoringAction 1474035264241 SudokuVerifier.java RENAME import java.util.a=>import java.util.A IMPORT
+RefactoringAction 1474035266253 SudokuVerifier.java RENAME import java.util.A=>import java.util.Arra IMPORT
+RefactoringAction 1474035272267 SudokuVerifier.java RENAME import java.util.Arra=>import java.util.Array IMPORT
+RefactoringAction 1474035275780 SudokuVerifier.java REMOVE import java.util.Array IMPORT
+RefactoringAction 1474035277293 SudokuVerifier.java ADD import java.util.A IMPORT
+RefactoringAction 1474035280806 SudokuVerifier.java RENAME import java.util.A=>import java.util.Arra IMPORT
+RefactoringAction 1474035281820 SudokuVerifier.java RENAME import java.util.Arra=>import java.util.Array IMPORT
+RefactoringAction 1474035282836 SudokuVerifier.java RENAME import java.util.Array=>import java.util.Arrays IMPORT
+RefactoringAction 1474035285850 SudokuVerifier.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1474035288864 SudokuVerifier.java ADD import java.util IMPORT
+RefactoringAction 1474035290376 SudokuVerifier.java REMOVE import java.util IMPORT
+RefactoringAction 1474035295387 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1474035708593 SudokuVerifier.java ADD int checkRoe FIELD
+RefactoringAction 1474035711109 SudokuVerifier.java RENAME checkRoe=>int checkRows() METHOD
+RefactoringAction 1474035722158 SudokuVerifier.java RENAME checkRows()=>int checkRows(String) METHOD
+RefactoringAction 1474035851267 SudokuVerifier.java ADD int length FIELD
+RefactoringAction 1474035913334 SudokuVerifier.java REMOVE length FIELD
+EditAction 1474035915452 SudokuVerifier.java 797 2 5 0
