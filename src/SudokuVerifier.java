@@ -19,21 +19,23 @@ public class SudokuVerifier {
 		if ( !candidateSolution.matches("[1-9]+")) {
 			return -1;
 		}
-		else
-			return 0;
-		
-		for(int j=0;j<=9;j++)
-		{
+		else {
+			
+			String firstRow = candidateSolution.substring(0,9);
+				
+/*			for(int j=0;j<=9;j++)
+			{
 				for(int i = 1; i <= 9; i++)
 				{
-						if(candidateSolution.charAt(i-1) != i)
-						{
-								return false;
-						}
+					if(candidateSolution.charAt(i-1) != i)
+					{
+						return 0;
+					}
 				}
-		
+
+			}*/
 		}
-		return true;
+		return 1;
 		//check
 	}
 	
